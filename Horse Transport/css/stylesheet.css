@@ -1,0 +1,45 @@
+.formLocation {
+	border-radius: 10px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+
+textarea#comments {
+	max-width: 100%;
+}
+
+input[disabled] {
+	background-color:white !important;
+}
+
+.indexH1 {
+	font-size: 100px;
+}
+
+.indexH3 {
+	font-size: 50px
+}
+
+.indexDiv {
+	margin-top:20vh;
+	margin-bottom:20vh;
+}
+
+@media screen and (max-width:992px) {
+	.pushDownCity {
+		margin-bottom: 15px;
+	}
+	.datepickerCustom {
+		width: calc(100% - 39px);
+	}
+}
+
+@media screen and (max-width:1000px) {
+	.indexH1 {
+		font-size: 50px;
+	}
+
+	.indexH3 {
+		font-size: 20px
+	}
+}
